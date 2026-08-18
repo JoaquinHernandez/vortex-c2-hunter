@@ -1,0 +1,40 @@
+{
+  "connections": [
+    {
+      "src_ip": "10.0.4.15",
+      "dst_ip": "185.220.101.5",
+      "dst_port": 4444,
+      "protocol": "TCP",
+      "timestamps": [1700000000, 1700000060, 1700000121, 1700000180, 1700000242, 1700000301],
+      "dns_query": null,
+      "bytes_transferred": 2048
+    },
+    {
+      "src_ip": "10.0.4.15",
+      "dst_ip": "142.250.190.46",
+      "dst_port": 443,
+      "protocol": "HTTPS",
+      "timestamps": [1700000010, 1700000250, 1700000890, 1700001400],
+      "dns_query": null,
+      "bytes_transferred": 45012
+    },
+    {
+      "src_ip": "10.0.4.22",
+      "dst_ip": "8.8.8.8",
+      "dst_port": 53,
+      "protocol": "DNS",
+      "timestamps": [1700000005, 1700000010, 1700000015],
+      "dns_query": "dGhpcy1pcy1leGZpbHRyYXRlZC1kYXRhLXZhdWx0-01.attacker-c2.net",
+      "bytes_transferred": 512
+    },
+    {
+      "src_ip": "10.0.4.99",
+      "dst_ip": "194.26.29.112",
+      "dst_port": 8443,
+      "protocol": "HTTPS",
+      "timestamps": [1700000100, 1700000130, 1700000160, 1700000190, 1700000220],
+      "dns_query": null,
+      "bytes_transferred": 1024
+    }
+  ]
+}
