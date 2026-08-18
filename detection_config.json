@@ -1,0 +1,11 @@
+{
+  "min_connection_threshold": 4,
+  "max_jitter_coefficient": 0.25,
+  "dns_entropy_threshold": 3.8,
+  "suspicious_ports": [4444, 8080, 8443, 1337, 9001],
+  "mitre_mappings": {
+    "BEACONING": "T1071.001 (Application Layer Protocol: Web Protocols)",
+    "DNS_TUNNELING": "T1071.004 (DNS Covert Channel Exfiltration)",
+    "SUSPICIOUS_PORT": "T1571 (Non-Standard Network Port Usage)"
+  }
+}
